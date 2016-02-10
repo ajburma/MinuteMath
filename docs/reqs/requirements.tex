@@ -1,0 +1,107 @@
+\author{}
+\title{SE 3354.003 - Software Engineering1}
+\documentclass[12pt,letterpaper,oneside]{article}
+\usepackage{requirements}
+
+% Metadata
+\usepackage[pdftex,
+	pdftitle={SE 3354.003 Project Requirements},
+	pdfsubject={Software Engineering},
+	pdfproducer={LaTeX with hyperref},
+	pdfcreator={pdflatex}]{hyperref}
+
+% Headers and foots
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{SE 3354.003}
+\chead{Project Requirements}
+\rhead{MinuteMath}
+
+\begin{document}
+%===============================================================================
+\begin{enumerate}
+	\item
+		The application shall contain games to reinforce learning of mathematical concepts
+	\item
+		% UI Reqs
+		The application shall implement a graphical user interface (UI)
+		\begin{enumerate}
+			\item
+				% Main menu
+				The appplication shall show a main menu on initial launch
+				\begin{enumerate}
+					\item
+						The main menu shall contain buttons to user profile, games, and tutorials
+				\end{enumerate}
+			\item
+				% Tutorials
+				The UI shall contain a tutorial section
+				\begin{enumerate}
+					\item
+						The tutorial screen shall display high-level tutorial categories for the user to choose from
+					\item
+						% Tutorial drop-downs
+						The tutorial categories shall display drop-downs of their contained tutorials upon being tapped
+					\item
+						The user shall be taken to the appropriate tutorial upon tapping a contained tutorial
+						\begin{enumerate}
+							\item
+								The tutorial shall be a text-based activity with scrolling
+							\item
+								The user shall be able to navigate back to other menus from the tutorial
+						\end{enumerate}
+				\end{enumerate}
+			\item
+				The UI shall contain games
+				\begin{enumerate}
+					\item
+						The UI shall provide a way for the user to select from the application's games
+						\begin{enumerate}
+							\item
+								The game select screen shall display categories for the user to chose from
+							\item
+								The user shall be taken to the game options screen upon tapping a catagory
+						\end{enumerate}
+					\item
+						The UI shall provide a way for user to configure the game parameters
+						\begin{enumerate}
+							\item
+								The game options screen shall display options for the user to manipulate game time duration
+							\item
+								The game options screen shall display options for the user to specify the number of questions
+							\item
+								The game options screen shall display options for the user to specify whether or not problems will be scored
+							\item
+								The user shall be taken to the appropriate game upon tapping a game start button
+						\end{enumerate}
+					\item
+						The UI shall provide a way for the user to play the application's games
+						\begin{enumerate}
+							\item
+								The in-game screens shall contain a button to end the current game
+						\end{enumerate}
+				\end{enumerate}
+			\item
+				% User profile
+				The UI shall contain a section for viewing the user's statistics
+				\begin{enumerate}
+					\item
+						The statistics screen shall display high-level statistics categories for the user to view
+						\begin{enumerate}
+							\item
+								The high-level categories shall be displayed in a scrollable, horizontal bar
+						\end{enumerate}
+					\item
+						The information within each category shall be presented graphically
+				\end{enumerate}
+		\end{enumerate}
+	\item
+		Tutorial
+	\item
+		User profile
+	\item
+		Feedback
+\end{enumerate}
+%===============================================================================
+\end{document}
+
